@@ -1,7 +1,17 @@
-site_name: Documentation CPGEOM
-
-nav:
-  - Accueil: index.md
+site_name: CPGEOM - Documentation
 
 theme:
   name: material
+
+nav:
+  - Accueil: index.md
+  - Gestion de projet: gestion_projet.md
+  - Base de données: base_de_donnees.md
+  - Python & PyQGIS: python.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
