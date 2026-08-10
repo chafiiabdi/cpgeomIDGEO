@@ -1,0 +1,7 @@
+site_name: Documentation CPGEOM
+
+nav:
+  - Accueil: index.md
+
+theme:
+  name: material
